@@ -41,7 +41,7 @@ walk(testFolder, function(err, results) {
     //console.log(file);
 
     if (file.endsWith(".docx")){
-        exec("mammoth "+file+" "+file);
+        exec("mammoth "+file+" "+file.replace(".docx",".html")); //exec("mammoth "+file+" "+file); // the 2nd version would let you keep the .docx extension
         console.log("changed "+ file);
     }
     //console.log(file);

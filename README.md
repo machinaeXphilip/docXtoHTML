@@ -4,7 +4,7 @@ super simple node based wrapper for python-mammoth to simply recursively convert
 walks downward from place of execution through the filetree and converts every .docx file to HTML and adds .html extension.
 
 #### note ####
-(originally it kept the .docX extension because we used it in a game setting, where the files needed the wrong file extension (if you want it to NOT rename it into .html, change [line44](https://github.com/machinaeXphilip/docXtoHTML/blob/5e35eec6b60718e5ecb51754a899d88acc1b3f6a/docxTOHTMLrecursive2.js#L44) to the commented out version)
+originally it kept the .docX extension because we used it within a game environment, where the files needed the wrong file extension. If you want it to NOT rename files into <filename>.html: change [line44](https://github.com/machinaeXphilip/docXtoHTML/blob/5e35eec6b60718e5ecb51754a899d88acc1b3f6a/docxTOHTMLrecursive2.js#L44) to the version noted as a comment.
 
 ### dependencies ###
 - node installed
